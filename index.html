@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="description" content="Renacer Interior - Servicios de terapia holística: Registros Akáshicos, Visualización Guiada, Canalización Intuitiva & Oráculos." />
+  <meta property="og:title" content="Renacer Interior - Terapia Holística" />
+  <meta property="og:description" content="Explora nuestros servicios de terapia holística y renace desde el corazón hasta la mente." />
+  <meta property="og:image" content="imgs/hero.png" />
+  <meta property="og:type" content="website" />
+  <link rel="icon" type="image/png" sizes="32x32" href="imgs/favicon.png">
+  <title>Renacer Interior</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header role="banner">
+    <div class="logo-container">
+      <img src="imgs/logo.png" alt="Logo Renacer Interior" class="logo" />
+      <h1>Renacer Interior</h1>
+    </div>
+    <nav role="navigation" aria-label="Menú principal">
+      <a href="cart.html" id="cart-link">🛒 Carrito (<span id="cart-count" aria-live="polite">0</span>)</a>
+    </nav>
+  </header>
+  <main role="main">
+    <section class="hero">
+      <div class="hero-content">
+        <h2>Renace tu Bienestar Interior</h2>
+        <p>Explora nuestros servicios de terapia holística y renace desde el corazón hasta la mente.</p>
+        <a href="#products-container" class="btn">Ver Servicios</a>
+      </div>
+    </section>
+    <h2 class="section-title">Nuestros Servicios</h2>
+    <section id="products-container" class="products-grid"></section>
+  </main>
+  <div id="toast" role="status" aria-live="polite"></div>
+  <script src="js/app.js"></script>
+</body>
+</html>

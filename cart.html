@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="description" content="Tu Carrito de servicios de Renacer Interior." />
+  <link rel="icon" type="image/png" sizes="32x32" href="imgs/favicon.png">
+  <title>Renacer Interior - Carrito</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header role="banner">
+    <div class="logo-container">
+      <img src="imgs/logo.png" alt="Logo Renacer Interior" class="logo" />
+      <h1>Tu Carrito</h1>
+    </div>
+    <nav role="navigation" aria-label="Menú principal">
+      <a href="index.html">← Seguir comprando</a>
+      <a href="cart.html" id="cart-link">🛒 Carrito (<span id="cart-count" aria-live="polite">0</span>)</a>
+    </nav>
+  </header>
+  <main role="main">
+    <section id="cart-items" class="products-grid"></section>
+    <div id="cart-total" class="cart-total"></div>
+    <div id="cart-actions" class="cart-actions">
+      <button id="empty-btn" class="btn" aria-label="Vaciar carrito">Vaciar carrito</button>
+      <button id="checkout-btn" class="btn" aria-label="Finalizar compra">Finalizar compra</button>
+    </div>
+  </main>
+  <script src="js/cart.js"></script>
+</body>
+</html>
